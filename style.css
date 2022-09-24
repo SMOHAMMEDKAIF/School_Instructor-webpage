@@ -1,0 +1,53 @@
+.heading{
+    text-align: center;
+}
+.heading > h1{
+    color: teal;
+}
+.team-members{
+    width: 80%;
+    height: auto;
+    border: 0px solid red;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+.team-members > div{
+    width: 23%;
+    height: auto;
+    border: 0px solid blue;
+    margin: auto;
+}
+.team-members > div > img {
+    width: 100%;
+}
+.team-stats{
+    width: 100%;
+    height: auto;
+    border: 0px solid blue;
+    margin-top: 50px;
+    display: flex;
+    background-color: goldenrod;
+}
+.team-stats > div{
+    width: 18%;
+    height:auto;
+    border: 0px solid red;
+    margin: auto;
+    text-align: center;
+}
+.cards{
+    width: 80%;
+    height: auto;
+    border: 0px solid red;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+}
+.cards > div{
+    width: 30%;
+    height: auto;
+    border: 0px solid blue;
+    margin: auto;
+}
